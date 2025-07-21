@@ -1,0 +1,7 @@
+SQL 50 days challenge
+
+2.Question: https://leetcode.com/problems/find-customer-referee/submissions/1704795766/?envType=study-plan-v2&envId=top-sql-50
+
+ Answer : SELECT name
+	  FROM Customer
+	  WHERE referee_id != 2 OR referee_id IS NULL;
