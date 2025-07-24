@@ -1,0 +1,7 @@
+SQL 50 days challenge
+
+6.Question:https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/?envType=study-plan-v2&envId=top-sql-50   
+
+Answer : SELECT unique_id, name
+	FROM Employees LEFT JOIN EmployeeUNI 
+	ON Employees.id = EmployeeUNI.id;
