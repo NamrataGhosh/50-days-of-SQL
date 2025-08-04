@@ -1,0 +1,9 @@
+SQL 50 days challenge
+
+15. https://leetcode.com/problems/not-boring-movies/?envType=study-plan-v2&envId=top-sql-50
+
+Answer :    SELECT *
+	    FROM Cinema
+	    WHERE MOD(id, 2) = 1
+	    AND description != 'boring'
+	    ORDER BY rating DESC;
