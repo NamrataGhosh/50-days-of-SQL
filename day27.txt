@@ -1,0 +1,5 @@
+SQL 50 days challenge
+
+27. https://leetcode.com/problems/triangle-judgement/description/?envType=study-plan-v2&envId=top-sql-50
+
+Answer :   select *, if(x+y>z and y+z>x and x+z>y, "Yes","No") as triangle from triangle
